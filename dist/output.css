@@ -4,26 +4,38 @@
 .As\(fe\) {
   align-self: flex-end;
 }
-.Bd, .Bd\:fv:focus-visible, .Bd\:a:active {
+
+.Bd,
+.Bd\:fv:focus-visible,
+.Bd\:a:active {
   border-width: 1px;
   border-style: solid;
 }
 .Bd\(n\) {
   border: none;
 }
-.Bdc\(\#fff\), .Bdc\(\#fff\)\:fv:focus-visible {
+
+.Bdc\(\#fff\),
+.Bdc\(\#fff\)\:fv:focus-visible {
   border-color: #fff;
 }
-.Bdendw\(0\), .Bdendw\(0\)\:f:focus {
+
+.Bdendw\(0\),
+.Bdendw\(0\)\:f:focus {
   border-right-width: 0;
 }
-.Bdstartw\(0\), .Bdstartw\(0\)\:f:focus {
+
+.Bdstartw\(0\),
+.Bdstartw\(0\)\:f:focus {
   border-left-width: 0;
 }
 .Bgc\(\#1b1919\) {
   background-color: #1b1919;
 }
-.Bgc\(\#545050\), .Bgc\(\#545050\)\:a:active, .preview-list__link:active .preview-list__link\:a_Bgc\(\#545050\) {
+
+.Bgc\(\#545050\),
+.Bgc\(\#545050\)\:a:active,
+.preview-list__link:active .preview-list__link\:a_Bgc\(\#545050\) {
   background-color: #545050;
 }
 .Bgc\(\#f5f5f5\) {
@@ -32,10 +44,13 @@
 .Bgc\(t\) {
   background-color: transparent;
 }
+
 .form__checkbox:checked + .form__checkbox\:c\+Bgc\(\#fff\) {
   background-color: #fff;
 }
-.Bgcp\(cb\), .form__checkbox:checked + .form__checkbox\:c\+Bgcp\(cb\) {
+
+.Bgcp\(cb\),
+.form__checkbox:checked + .form__checkbox\:c\+Bgcp\(cb\) {
   background-clip: content-box;
 }
 .Bxz\(bb\) {
@@ -59,6 +74,7 @@
 .Colmg\(40px\) {
   column-gap: 40px;
 }
+
 .Cur\(p\)\:h:hover {
   cursor: pointer;
 }
@@ -90,9 +106,10 @@
   grid-area: a;
 }
 .Gt\(gridABCDEarea\) {
-  grid-template: "a b" 1fr
-                "a d" 1fr
-                "c d" 54px  / 1fr 399px ;
+  grid-template:
+    'a b' 1fr
+    'a d' 1fr
+    'c d' 54px / 1fr 399px;
 }
 .Jc\(c\) {
   justify-content: center;
@@ -201,30 +218,39 @@
 .Objp\(c\) {
   object-position: center;
 }
+
 .Oc\(\#fff\)\:fv:focus-visible {
   outline-color: #fff;
 }
+
 .Oo\(-2px\)\:fv:focus-visible {
   outline-offset: -2px;
 }
-.Oo\(1px\)\:fv:focus-visible, .form__label:has(> .form__checkbox:focus-visible) {
+
+.Oo\(1px\)\:fv:focus-visible,
+.form__label:has(> .form__checkbox:focus-visible) {
   outline-offset: 1px;
 }
+
 .Os\(n\)\:fv:focus-visible {
   outline-style: none;
 }
+
 .Os\(s\)\:fv:focus-visible {
   outline-style: solid;
 }
+
 .Ow\(0\)\:fv:focus-visible {
   outline-width: 0;
 }
+
 .Ow\(1px\)\:fv:focus-visible {
   outline-width: 1px;
 }
 .Ovy\(s\) {
   overflow-y: scroll;
 }
+
 .form__checkbox:checked + .form__checkbox\:c\+P\(2px\) {
   padding: 2px;
 }
@@ -264,7 +290,9 @@
 .Tal\(c\) {
   text-align-last: center;
 }
-.preview-list__link:hover .preview-list__link\:h_Td\(u\), .Td\(u\)\:h:hover {
+
+.preview-list__link:hover .preview-list__link\:h_Td\(u\),
+.Td\(u\)\:h:hover {
   text-decoration: underline;
 }
 .Td\(n\) {
@@ -294,6 +322,7 @@
 .Sbw\(n\) {
   scrollbar-width: none;
 }
+
 .form__label:has(> .form__checkbox:focus-visible) {
   outline: 1px solid #fff;
 }

@@ -9,7 +9,7 @@ module.exports = [
     },
     arguments: [
       {
-        'n': 'none',
+        n: 'none',
       },
     ],
     type: 'helper',
@@ -20,14 +20,12 @@ module.exports = [
     description: 'Use to style focus-visible parents element',
     matcher: 'Fv',
     noParams: true,
-    styles: {
-
-    },
+    styles: {},
     rules: {
-        '.form__label:has(> .form__checkbox:focus-visible)': {
-          'outline': '1px solid #fff',
-          'outline-offset': '1px'
-        }
+      '.form__label:has(> .form__checkbox:focus-visible)': {
+        outline: '1px solid #fff',
+        'outline-offset': '1px',
+      },
     },
   },
   {
@@ -36,15 +34,12 @@ module.exports = [
     description: 'Use add pseudo',
     matcher: 'Fv',
     noParams: true,
-    styles: {
-
-    },
+    styles: {},
     rules: {
-        '.form__label:has(> .form__checkbox:focus-visible)': {
-          'outline': '1px solid #fff',
-          'outline-offset': '1px'
-        }
+      '.form__label:has(> .form__checkbox:focus-visible)': {
+        outline: '1px solid #fff',
+        'outline-offset': '1px',
+      },
     },
-  }
-  
+  },
 ];
