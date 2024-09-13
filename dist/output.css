@@ -1,3 +1,6 @@
+.Ai\(c\) {
+  align-items: center;
+}
 .As\(fe\) {
   align-self: flex-end;
 }
@@ -20,19 +23,19 @@
 .Bgc\(\#1b1919\) {
   background-color: #1b1919;
 }
+.Bgc\(\#545050\), .Bgc\(\#545050\)\:a:active, .preview-list__link:active .preview-list__link\:a_Bgc\(\#545050\) {
+  background-color: #545050;
+}
 .Bgc\(\#f5f5f5\) {
   background-color: #f5f5f5;
 }
 .Bgc\(t\) {
   background-color: transparent;
 }
-.Bgc\(\#545050\)\:a:active, .preview-list__link:active .preview-list__link\:a_Bgc\(\#545050\) {
-  background-color: #545050;
-}
 .form__checkbox:checked + .form__checkbox\:c\+Bgc\(\#fff\) {
   background-color: #fff;
 }
-.form__checkbox:checked + .form__checkbox\:c\+Bgcp\(cb\) {
+.Bgcp\(cb\), .form__checkbox:checked + .form__checkbox\:c\+Bgcp\(cb\) {
   background-clip: content-box;
 }
 .Bxz\(bb\) {
@@ -91,6 +94,9 @@
                 "a d" 1fr
                 "c d" 54px  / 1fr 399px ;
 }
+.Jc\(c\) {
+  justify-content: center;
+}
 .Jc\(sb\) {
   justify-content: space-between;
 }
@@ -147,6 +153,9 @@
 }
 .Lh\(30px\) {
   line-height: 30px;
+}
+.Lh\(33px\) {
+  line-height: 33px;
 }
 .Lh\(70\.5px\) {
   line-height: 70.5px;
@@ -251,6 +260,9 @@
 }
 .Pos\(a\) {
   position: absolute;
+}
+.Tal\(c\) {
+  text-align-last: center;
 }
 .preview-list__link:hover .preview-list__link\:h_Td\(u\), .Td\(u\)\:h:hover {
   text-decoration: underline;
