@@ -1,0 +1,22 @@
+{
+  "name": "look-out-the-window",
+  "version": "1.0.0",
+  "description": "Проект сделан для практики разметки и стилизации форм и методологии Attomic CSS",
+  "main": "index.js",
+  "scripts": {
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint **/*.css",
+    "lintfix": "stylelint **/*.css --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix",
+    "atomize": "atomizer -o ./dist/output.css --watch index.html --rules atomizer.rules.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atomizer": "^3.29.0",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.9.0"
+  }
+}
